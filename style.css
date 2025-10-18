@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(10, 10, 58);
+    overflow-x: hidden;
+}
+.Caixa {
+    background-color: aliceblue;
+    color: black;
+    display: block;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px black ;
+    margin: 40px auto ;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 100px ;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.email {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    color: black;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 0px;
+    border-radius: 40px;
+    width: 85%;   
+}
+.senha {
+
+    background-color: rgb(255, 255, 255);
+    display: block;
+    color: black;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    border-radius: 40px;
+    width: 85%;
+}
+button {
+    background-color: rgb(77, 77, 190);
+    display: block;
+    color: black;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 0px;
+    border-radius: 40px;
+    width: 75%;
+    height: 15%;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+}
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.esqueci {
+    display: flex;
+    color: black;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+.conta{
+    display: flex;  
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.criar {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-left: 4px;
+}
+
