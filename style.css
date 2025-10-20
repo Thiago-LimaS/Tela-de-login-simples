@@ -74,6 +74,8 @@ label{
     font-size: 15px;
     cursor: pointer;
     user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
 }
 .esqueci {
     display: flex;
